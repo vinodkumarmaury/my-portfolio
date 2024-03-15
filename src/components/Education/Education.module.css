@@ -1,0 +1,156 @@
+/* Education.module.css */
+.section-heading{
+  padding-top: 20px;
+  margin-top: -1px;
+  margin-left:40vw;
+  font-size: 2.2rem;
+  color: white;
+}
+
+.education{
+  background-color: hsl(227, 28%, 13%);
+  height: fit-content;
+  margin-top: -20px;
+}
+#education-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+   
+  .education-item {
+    border-left: 2px solid #e74c3c;
+    margin: 20px;
+    padding: 20px;
+  }
+  
+  .education-item h3 {
+    color: #e74c3c;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+   
+  .education-item p {
+    font-size: 1rem;
+    line-height: 1.4;
+    color: #555;
+  }
+  
+  .education-item span {
+    font-weight: bold;
+  }
+
+
+  .timeline {
+    position: relative;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.timeline-box {
+    padding: 5px;
+    width: 40%;
+    min-height: 150px;
+    position: relative;
+    left: 5%;
+    text-align: right;
+}
+
+.timeline-box::after {
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-color: lightgrey;
+    top: 25%;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.timeline-box:nth-child(2n) {
+    left: 53%;
+}
+
+.timeline-box:nth-child(2n+1)::after {
+    right: -11.8%;
+}
+
+.timeline-box:nth-child(2n)::after {
+    left: -9%;
+}
+
+.timeline-container {
+    padding: 8px;
+}
+
+.timeline-logo {
+    position: absolute;
+    width: 120px;
+    overflow: hidden;
+    background-color: #857c7b;
+}
+
+.timeline-logo > img {
+    width: 100%;
+    color:aqua;
+    width: 120px;
+    height: 130px;
+    z-index: -1;
+}
+
+#timeline-divider {
+    position: absolute;
+    width: 0;
+    top: 10%;
+    left: 50%;
+    border: 1px dashed #f2b0086b;
+    height: 66%;
+    color: #5610243f;
+}
+
+#timeline-divider .timeline-traveller {
+    position: sticky;
+    top: 135px;
+    z-index: 2;
+}
+
+#timeline-divider i {
+    transform: rotate(90deg);
+    margin-top: -35px;
+    display: block;
+    color: #2aa428;
+}
+
+.experienceDesignation {
+  font-size: 1.4rem;
+  color: indianred;
+}
+
+.experienceCompanyName {
+  margin: 5px 0 0;
+  color:gold;
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+
+.experienceDuration {
+  font-weight: 100;
+  color:aliceblue;
+  font-size: 1rem;
+}
+
+.experienceDescription {
+  font-size: 14px;
+  padding: 2px;
+  color:white;
+  font-weight: bolder;
+  line-height: 20px;
+}
+
+.textAlignJustify {
+  text-align: justify;
+}
+
+  

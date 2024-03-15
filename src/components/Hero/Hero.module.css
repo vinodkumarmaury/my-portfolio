@@ -1,0 +1,174 @@
+
+/* 192b18 */
+.bodyheader {
+    height:70vh;
+    /* opacity: 0.8; */
+    /* background-color: hsla(292, 84%, 15%, 0.626); */
+    background-color: hsl(235, 11%, 23%);
+    padding-top: 1.2rem;
+}
+
+ 
+/* Horizontal Lists */
+
+.horizontal-list {
+    list-style: none;
+    padding-left: 0px;
+    margin: 0px;
+    margin-top: 10vh;
+}
+
+.horizontal-list li {
+    display: inline-block;
+    margin: 0px 8px 8px 0px;
+    font-weight: 100;
+    font-size: 0.9rem; 
+}
+
+.horizontal-list li a {
+    color:rgba(9, 226, 242, 0.993);
+    z-index: -1;
+    text-decoration: none;
+}
+
+
+
+.text-center {
+    text-align: center;
+}
+
+#name-social-container {
+    margin-top: 20vh;
+}
+
+#my-name {
+    font-size: 3rem;
+    letter-spacing: 0.1rem;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+.social-icons li a i {
+    padding: 10px;
+    font-size: 1.5rem;
+    border-radius: 50%;
+}
+
+.social-icons li a i:hover {
+    box-shadow: 0px 0px 6px 4px rgba(230, 196, 196, 0.3);
+}
+
+
+
+/*  */
+.me{
+    justify-content: center;
+    margin-left: 20%;
+}
+
+.name span{
+  color: chartreuse;
+}
+.me > p {
+    font-family: monospace;
+    font-size: 1.5rem;
+    font-weight: 400;
+    letter-spacing: 0.05rem;
+    line-height: 1.6;
+    font-weight: bolder;
+    color:rgb(196, 88, 5);
+  }
+  
+  
+  
+  .container h1 {
+    font-family: sans-serif;
+    letter-spacing: 0.2rem;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    margin-top: 0.2rem;
+    margin-left: -0.2rem;
+  }
+  
+  .container h1 span {
+    color: hsl(161, 86%, 44%);
+  }
+  
+  .container h2 {
+    font-family: sans-serif;
+    font-size: 1.4rem;
+    font-weight: 400;
+    letter-spacing: 0.1rem;
+    line-height: 1.5;
+    margin: 0;
+    display: inline-flex;
+    line-height: 1.6;
+    gap: 0.5rem;
+    overflow: hidden;
+    margin-left: 0.1rem;
+  }
+  
+  /* H2 Animation code */
+  .typewriter {
+    font-family: sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+    line-height: 1.5;
+    height: 2.25rem;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    color: white;
+  }
+  
+  .typewriter li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 0;
+    overflow: hidden;
+      white-space: nowrap;
+    animation: backAndForth 6s ease infinite;
+  }
+  
+  @keyframes backAndForth {
+    0%,
+    100% {
+      width: 0;
+    }
+    50% {
+      width: 100%;
+    }
+  }
+  
+  .typewriter li span {
+    position: relative;
+    white-space: nowrap;
+  }
+  
+  .typewriter li span::after {
+    content: "";
+    width: 100%;
+    height: 2.25rem;
+    position: absolute;
+    left: 0;
+    animation: typing 5s ease infinite;
+  }
+  
+  @keyframes typing {
+    0% {
+      left: 0;
+    }
+    50% {
+      left: 100%;
+    }
+    100% {
+      left: 0;
+    }
+  }
+
+  
