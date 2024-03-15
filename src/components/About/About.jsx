@@ -3,15 +3,15 @@ import React from "react";
 import styles from "./about.module.css";
 import myimage from "../../Assets/images/Vinod.jpeg"
 
-const About = () => {
+const About = () => { 
   return (
     <section id="about" className={styles.about}>
       <div className={styles.myimage}>
-        <img
+        <img 
           src={myimage}
           alt="not found"
         />
-      </div>
+      </div> 
 
       <div className={`${styles["about-para"]}`}>
         <p>

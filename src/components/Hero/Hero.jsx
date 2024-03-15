@@ -12,22 +12,22 @@ const Hero = () => {
       <div className={style.bodyheader}>
 
       <div className={style.me}>
-          <p>Hello, I'm</p>
+          <p>Hello, I'm</p> 
           <h1 className={style.name}>
             Vinod Kumar <span>Maurya</span>
           </h1>
           <h2 className={style.title}>
             {/* <span>A</span> */}
-            <ul className={style.typewriter}>
+            <ul className={style.typewriter}> 
               <li>
                 <span>A Software Engineer, Problem Solver and Creative Thinker </span>
               </li>
-              <li>
+              {/* <li>
                 <span>Problem Solver</span>
               </li>
               <li>
                 <span>Creative Thinker</span>
-              </li>
+              </li> */}
             </ul>
           </h2>
         </div>

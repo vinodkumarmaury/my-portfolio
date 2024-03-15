@@ -1,5 +1,5 @@
 import React from "react"
-import Navbar from "../components/Navbar/Navbar"
+
 import Contact from "../components/Contact/Contact"
 // import Experience from "../components/Experience/Experience"
 import Footer from "../components/Footer/Footer"
@@ -13,8 +13,7 @@ import Education from "../components/Education/Education"
 const Home = ()=>{
     return(
         <>
-        <Navbar/>
-        <Hero/>
+        <Hero/> 
         <About/>
         <Skills/>
         {/* <Experience/> */}

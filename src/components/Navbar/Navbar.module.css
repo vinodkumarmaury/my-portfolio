@@ -41,3 +41,16 @@
       transform: scale(1);
     }
   }
+
+  /* Navbar.module.css */
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.menuOpen .navbar-collapse {
+  display: block !important;
+}

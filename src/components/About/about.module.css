@@ -1,45 +1,53 @@
 /* About.module.css */
 
 .about {
-    height: auto;
-    width: 100%;
-    position: relative; 
-    margin-bottom: 30px;
-    height: 70vh;
-    z-index: 1;
-  } 
-   
-  .about .myimage {
-    height: 12rem;
-    width: 12rem;
-    margin: auto;
-    margin-top: -17vh;
-    z-index: -5;
-  } 
-   
-  .about .myimage img {
-    height: 100%;
-    width: 100%;
-    border-radius: 50%;
-    border: 3px solid white;
-    box-shadow: 1px 1px 10px 2px lightgrey;
-    z-index:-5;
-  }
-  .about .about-para{
-     height: 70vh;
-     background-color:#181c2b;
-     z-index: 1;
-     margin-top: -87px;
-  }
+  width: 100%;
+  position: relative; 
+  margin-bottom: 30px;
+  z-index: 1;
+}
 
-  .about .about-para p {
-    padding-top: 150px;
-    /* padding: 10px; */
-    text-align: justify;
-    color: grey;
-    line-height: 28px;
-    font-size: 1.1rem;
-    margin-left: 20vw;
-    margin-right: 20vw;
+.about .myimage { 
+  width: 12rem;
+  margin: auto;
+  margin-top: -14vh;
+  z-index: -5;
+} 
+
+.about .myimage img {
+  width: 100%;
+  border-radius: 50%;
+  border: 3px solid white;
+  box-shadow: 1px 1px 10px 2px lightgrey;
+  z-index: -5;
+}
+
+.about .about-para {
+  background-color: #181c2b;
+  z-index: 1;
+  margin-top: -87px;
+}
+
+.about .about-para p {
+  padding-top: 150px;
+  text-align: justify;
+  color: grey;
+  line-height: 28px;
+  font-size: 1.1rem;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+@media screen and (min-width: 768px) {
+  .about {
+      height: 70vh;
   }
   
+  .about .about-para {
+      height: 70vh;
+  }
+  
+  .about .about-para p {
+      padding-top: 0;
+  }
+}
