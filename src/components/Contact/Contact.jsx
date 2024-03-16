@@ -22,7 +22,7 @@ const Contact = () => {
   };
   const handleMapEvents = () => {
     window.open("https://goo.gl/maps/czJrxa2GAejtWYVC8");
-  };
+  }; 
   return (
     <section id="contact" className={styles.contact}>
       <h1 className={`${styles["section-heading"]} ${styles.mb50px}`}>

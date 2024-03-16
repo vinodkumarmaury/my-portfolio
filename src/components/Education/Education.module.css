@@ -20,7 +20,8 @@
 }
 
 @media screen and (min-width:768px) {
-  
+ 
+
 .education{
   background-color: hsl(227, 28%, 13%);
   height: fit-content;
@@ -87,6 +88,10 @@
 .timeline-box:nth-child(2n) {
     left: 53%;
 }
+.timeline-box:nth-child(2n+1) {
+  left: 6%;
+}
+
 
 .timeline-box:nth-child(2n+1)::after {
     right: -11.8%;
@@ -157,11 +162,13 @@
 }
 
 .experienceDescription {
+  margin-top: 60px;
   font-size: 14px;
   padding: 2px;
   color:white;
   font-weight: bolder;
   line-height: 20px;
+  text-indent: 15px;
 }
 
 .textAlignJustify {
@@ -207,9 +214,9 @@
     min-height: 150px;
     position: relative;
     text-align: right;
-    left: 0;
+    left:0;
   }
-
+  
   .timeline-box::after {
     content: '';
     position: absolute;
@@ -219,6 +226,7 @@
     top: 25%;
     border-radius: 50%;
     z-index: 1;
+    margin-left:4.5%;
   }
 
   

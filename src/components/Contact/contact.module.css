@@ -38,7 +38,7 @@ textarea {
   padding: 4px 10px;
   border: 0px solid transparent;
   /* border-bottom: 2px solid white; */
-
+   margin-left: -1.5px;
   color: #d9dcdd;
   background:hsl(233, 50%, 7%);
   width: 90%;
@@ -276,6 +276,10 @@ textarea {
     }
   }
   
+
+
+
+
 /* Smaller Screen Styles */
 
 @media screen and (max-width: 768px) {
@@ -321,6 +325,7 @@ textarea {
     margin-left: 5vw; /* Adjust margin for smaller screens */
     margin-right: 5vw; /* Adjust margin for smaller screens */
   }
+
 
   .right .map {
     max-width: 100%; /* Adjust max width for smaller screens */
