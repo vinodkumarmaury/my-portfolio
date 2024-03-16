@@ -1,6 +1,6 @@
 // Project.js
 import React from 'react';
-import styles from './Project.module.css';
+import styles from './Project.module.css'; 
 
 const Project = () => {
   return (

@@ -12,7 +12,7 @@ const Hero = () => {
       <div className={style.bodyheader}>
 
       <div className={style.me}>
-          <p>Hello, I'm</p> 
+          <p>Hello, I'm</p>  
           <h1 className={style.name}>
             Vinod Kumar <span>Maurya</span>
           </h1>

@@ -2,14 +2,29 @@
 
 .section-heading{
   padding-top: 20px;
-  margin-left:28vw;
+  margin-left: 28vw;
   font-size: 2.2rem;
+} 
+
+@media screen and (min-width: 768px) {
+  .technologies { 
+    background-color: hsl(235, 11%, 23%);
+    color: green;
+    height: 110vh;
+    padding-top: 100px;
+  }
 }
-.technologies {
-  background-color:hsl(235, 11%, 23%);
-  height:fit-content;
-  color: green;
+
+@media screen and (max-width:768px){
+  .technologies { 
+    background-color: hsl(235, 11%, 23%);
+    height: 100vh;
+    color: green;
+    padding-bottom: 100px;
+  }
 }
+
+
 
 .technologies *::selection {
   background-color: hsl(161, 86%, 44%);

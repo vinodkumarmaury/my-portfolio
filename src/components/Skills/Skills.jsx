@@ -68,7 +68,7 @@ const Skills = () => {
     {
       src: FirebaseImage,
       alt: "Firebase",
-    },
+    }, 
   ];
   
   return (

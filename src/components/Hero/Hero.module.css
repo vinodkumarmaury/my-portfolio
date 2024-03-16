@@ -1,13 +1,28 @@
 /* Body Header */
-.bodyheader {
-  height: auto; /* Adjusted height for responsiveness */
-  min-height: 80vh; /* Set a minimum height to ensure content visibility */
-  background-color: hsl(235, 11%, 23%);
-  padding-top: 1.2rem;
+@media screen and (min-width:768px) {
+  .bodyheader {
+    height: auto; /* Adjusted height for responsiveness */
+    min-height: 80vh; /* Set a minimum height to ensure content visibility */
+    background-color: hsl(235, 11%, 23%);
+    padding-top: 1.2rem;
+    padding-bottom: 150px;
+    margin-bottom: -300px;
+  }
+}
+@media screen and (max-width:768px){
+  .bodyheader {
+    height:90vh; /* Adjusted height for responsiveness */
+    min-height: 80vh; /* Set a minimum height to ensure content visibility */
+    background-color: hsl(235, 11%, 23%);
+    padding-top: 1.2rem;
+    padding-bottom: 150px;
+    margin-bottom: -300px;
+  }
 }
 
+
 /* Horizontal Lists */
-.horizontal-list {
+.horizontal-list { 
   list-style: none;
   padding-left: 0px;
   margin: 0px;

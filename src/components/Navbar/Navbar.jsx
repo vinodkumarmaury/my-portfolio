@@ -31,30 +31,37 @@ const CustomNavbar = () => {
   // Function to handle menu item click and close the menu
   const handleMenuItemClick = () => {
     if (menuOpenedByHamburger) {
-      setMenuOpenedByHamburger(!menuOpen);
-      setMenuOpen(!menuOpen);
+      setMenuOpenedByHamburger(false);
+      setMenuOpen(false);
+      // Scroll to top of the navbar
+      window.scrollTo({
+        top: 40,
+        behavior: "smooth"
+      });
     }
   };
 
   return (
-    <Navbar
-      bg="dark"
-      variant="dark"
-      expand="md"
-      className={`${styles.navbar} ${isSticky ? styles.sticky : ''}`}
-    >
-      <Navbar.Brand href="#">Home</Navbar.Brand>
-      <Navbar.Toggle aria-controls="basic-navbar-nav" onClick={toggleMenu} />
-      <Navbar.Collapse id="basic-navbar-nav" className={menuOpen ? 'show' : ''}>
-        <Nav className="mr-auto">
-          <Nav.Link href="#about" onClick={handleMenuItemClick}>About</Nav.Link>
-          <Nav.Link href="#skills" onClick={handleMenuItemClick}>Skills</Nav.Link>
-          <Nav.Link href="#education" onClick={handleMenuItemClick}>Education</Nav.Link>
-          <Nav.Link href="#projects" onClick={handleMenuItemClick}>Projects</Nav.Link>
-          <Nav.Link href="#contact" onClick={handleMenuItemClick}>Contact</Nav.Link>
-        </Nav>
-      </Navbar.Collapse>
-    </Navbar>
+    <>
+      <Navbar
+        bg="dark"
+        variant="dark"
+        expand="md"
+        className={`${styles.navbar} ${isSticky ? styles.sticky : ''}`}
+      >
+        <Navbar.Brand href="#">Home</Navbar.Brand>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" onClick={toggleMenu} />
+        <Navbar.Collapse id="basic-navbar-nav" className={menuOpen ? 'show' : ''}>
+          <Nav className="mr-auto">
+            <Nav.Link href="#about" onClick={() => { handleMenuItemClick(); }}>About</Nav.Link>
+            <Nav.Link href="#skills" onClick={() => { handleMenuItemClick(); }}>Skills</Nav.Link>
+            <Nav.Link href="#education" onClick={() => { handleMenuItemClick(); }}>Education</Nav.Link>
+            <Nav.Link href="#projects" onClick={() => { handleMenuItemClick(); }}>Projects</Nav.Link>
+            <Nav.Link href="#contact" onClick={() => { handleMenuItemClick(); }}>Contact</Nav.Link>
+          </Nav>
+        </Navbar.Collapse>
+      </Navbar> 
+    </>
   );
 };
 

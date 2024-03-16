@@ -3,15 +3,15 @@ import React from "react";
 import styles from "./about.module.css";
 import myimage from "../../Assets/images/Vinod.jpeg"
 
-const About = () => { 
+const About = () => {
   return (
-    <section id="about" className={styles.about}>
+    <section id="about" className={styles.about} >
       <div className={styles.myimage}>
-        <img 
+        <img
           src={myimage}
           alt="not found"
         />
-      </div> 
+      </div>
 
       <div className={`${styles["about-para"]}`}>
         <p>
@@ -21,6 +21,12 @@ const About = () => {
           ideas and creating meaningful experiences. In my free time, I enjoy
           music, reading book and competitive programming. I am driven, creative,
           and passionate about making a positive impact through technology.
+        </p>
+        <p id={styles.newPara}>
+          Incorporating both technical precision and economic foresight, our mine 
+          design and planning project aims to optimize operational efficiency and 
+          maximize profitability through a comprehensive blend of innovative methodologies
+           and strategic decision-making.
         </p>
       </div>
     </section>

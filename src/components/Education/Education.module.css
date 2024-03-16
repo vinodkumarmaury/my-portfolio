@@ -1,7 +1,7 @@
 /* Education.module.css */
 .section-heading{
   padding-top: 20px;
-  margin-top: -1px;
+  margin-top: -1px; 
   margin-left:40vw;
   font-size: 2.2rem;
   color: white;
@@ -11,6 +11,7 @@
   background-color: hsl(227, 28%, 13%);
   height: fit-content;
   margin-top: -20px;
+  padding-top: 70px
 }
 #education-container {
     display: flex;
