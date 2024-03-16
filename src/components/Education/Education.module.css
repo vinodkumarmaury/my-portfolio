@@ -7,11 +7,25 @@
   color: white;
 }
 
+@media screen and (max-width:768px){
+  .section-heading{
+    padding-top: 20px;
+    margin-top: -1px; 
+    margin-left:25vw;
+    font-size: 2.2rem;
+    color: white;
+    margin-bottom: 20px;
+  }
+  
+}
+
+@media screen and (min-width:768px) {
+  
 .education{
   background-color: hsl(227, 28%, 13%);
   height: fit-content;
   margin-top: -20px;
-  padding-top: 70px
+  padding-top: 70px 
 }
 #education-container {
     display: flex;
@@ -152,6 +166,135 @@
 
 .textAlignJustify {
   text-align: justify;
+}
+}
+
+/**/
+@media screen and (max-width:768px) {
+  .education {
+    background-color: hsl(227, 28%, 13%);
+    height: fit-content;
+    margin-top: -20px;
+    padding-top: 70px;
+    margin-left: 0; /* Shift all education items to the left */
+  }
+
+  #education-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+    margin-left: 0; /* Shift all education items to the left */
+  }
+
+  .education-item {
+    border-left: 2px solid #e74c3c;
+    margin: 20px;
+    padding: 20px;
+    margin-left: 0; /* Shift all education items to the left */
+  }
+
+  .timeline {
+    position: relative;
+    width:90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .timeline-box {
+    padding: 5px;
+    width:90%;
+    min-height: 150px;
+    position: relative;
+    text-align: right;
+    left: 0;
+  }
+
+  .timeline-box::after {
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-color: lightgrey;
+    top: 25%;
+    border-radius: 50%;
+    z-index: 1;
+  }
+
+  
+
+  .timeline-container {
+    padding: 8px;
+  }
+
+  .timeline-logo {
+    position: absolute;
+    width: 120px;
+    overflow: hidden;
+    background-color: #857c7b;
+  }
+
+  .timeline-logo > img {
+    width: 100%;
+    color: aqua;
+    width: 120px;
+    height: 130px;
+    z-index: -1;
+  }
+
+  #timeline-divider {
+    position: absolute;
+    width: 0;
+    top: 10%;
+    right: 5%; /* Shift timeline divider to the right */
+    border: 1px dashed #f2b0086b;
+    height: 76%;
+    color: #5610243f;
+  }
+
+  #timeline-divider .timeline-traveller {
+    position: sticky;
+    top: 135px;
+    z-index: 2;
+  }
+
+  #timeline-divider i {
+    transform: rotate(90deg);
+    margin-top: -35px;
+    display: block;
+    color: #2aa428;
+  }
+
+  .experienceDesignation {
+    font-size: 1.4rem;
+    color: indianred;
+  }
+
+  .experienceCompanyName {
+    margin: 5px 0 0;
+    color: gold;
+    font-weight: 400;
+    font-size: 1.2rem;
+  }
+
+  .experienceDuration {
+    font-weight: 100;
+    color: aliceblue;
+    font-size: 1rem;
+  }
+
+  .experienceDescription {
+    margin-top: 60px;
+    font-size: 14px;
+    padding: 2px;
+    color: white;
+    font-weight: bolder;
+    line-height: 20px;
+    text-indent: 15px;
+  }
+  .textAlignJustify {
+    text-align: justify;
+  }
 }
 
   

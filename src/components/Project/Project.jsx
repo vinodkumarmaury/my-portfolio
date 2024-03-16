@@ -6,7 +6,7 @@ const Project = () => {
   return (
     <section id="projects" className={styles.portfolio}>
       <h1 className={`${styles["section-heading"]} ${styles.mb75px}`}>
-        <span>
+        <span> 
           <i className="fas fa-th-list"></i>
         </span>
         <span> Portfolio </span> 

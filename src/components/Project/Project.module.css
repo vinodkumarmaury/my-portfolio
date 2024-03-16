@@ -6,6 +6,14 @@
   color: green;
 }
 
+@media screen and (max-width:768px) {
+  .section-heading{ 
+    padding-top: 20px;
+    margin-left:25vw;
+    font-size: 2.2rem;
+    color: green;
+  }
+}
 .portfolio{
   background-color: hsl(235, 11%, 23%);
   margin-top: -22px;

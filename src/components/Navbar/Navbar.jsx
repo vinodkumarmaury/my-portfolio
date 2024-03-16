@@ -58,7 +58,7 @@ const CustomNavbar = () => {
             <Nav.Link href="#education" onClick={() => { handleMenuItemClick(); }}>Education</Nav.Link>
             <Nav.Link href="#projects" onClick={() => { handleMenuItemClick(); }}>Projects</Nav.Link>
             <Nav.Link href="#contact" onClick={() => { handleMenuItemClick(); }}>Contact</Nav.Link>
-          </Nav>
+          </Nav> 
         </Navbar.Collapse>
       </Navbar> 
     </>

@@ -6,7 +6,7 @@ import { IoLocationOutline } from "react-icons/io5";
 import { FaMapMarkerAlt } from "react-icons/fa";
 import resume from "../../Assets/images/Resume.png"
 import Map from "../../Assets/images/map.jpg"
-import { SiCodechef } from "react-icons/si";
+import { SiCodechef } from "react-icons/si"; 
 import { SiCodeforces } from "react-icons/si";
 import { SiLeetcode } from "react-icons/si";
 import { SiGmail } from "react-icons/si";
@@ -26,10 +26,10 @@ const Contact = () => {
   return (
     <section id="contact" className={styles.contact}>
       <h1 className={`${styles["section-heading"]} ${styles.mb50px}`}>
-        <span>
+        <span className={styles.logo}>
           <i className="far fa-address-card"></i>
         </span>
-        <span> Contact </span>
+        <span className={styles.name}> Contact </span>
       </h1>
          <div className={styles.mapAndContact}>
         {/* Map maker */}

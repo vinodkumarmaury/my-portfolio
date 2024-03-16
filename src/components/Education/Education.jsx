@@ -4,7 +4,7 @@ import styles from "./Education.module.css";
 
 const Education = () => {
   return (
-    <section id="education" className={styles.education}>
+    <section id="education"  className={styles.education}>
       <h1 className={`${styles["section-heading"]}`}>
         <span>
           <i className={`fas fa-graduation-cap`}></i>
@@ -25,7 +25,7 @@ const Education = () => {
             <h4 className={styles.experienceCompanyName}> Institute Name </h4>
             <h5 className={`${styles.experienceDuration} ${styles.m0}`}>
               {" "}
-              Month YYYY - Month YYYY{" "}
+              Nov 2021-Present{" "}
             </h5>
 
             <p
@@ -57,7 +57,7 @@ const Education = () => {
             <h4 className={styles.experienceCompanyName}> Institute Name </h4>
             <h5 className={`${styles.experienceDuration} ${styles.m0}`}>
               {" "}
-              Month YYYY - Month YYYY{" "}
+              Nov 2021-Present{" "}
             </h5>
             <p
               className={`${styles.experienceDescription} ${styles.textAlignJustify}`}
@@ -88,7 +88,7 @@ const Education = () => {
             <h4 className={styles.experienceCompanyName}> Institute Name </h4>
             <h5 className={`${styles.experienceDuration} ${styles.m0}`}>
               {" "}
-              Month YYYY - Month YYYY{" "}
+              Nov 2021-Present{" "}
             </h5>
 
             <p
