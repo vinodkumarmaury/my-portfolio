@@ -4,10 +4,10 @@ import Home from './page/page';
 import Navbar from "../src/components/Navbar/Navbar"
 function App() {
   return (
-    <>
+    <div style={{overflowX:'hidden'}}>
     <Navbar/>
-   <Home/>
-   </>
+    <Home/>
+   </div>
   );
 }
 
