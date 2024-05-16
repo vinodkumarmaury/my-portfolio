@@ -94,27 +94,27 @@ const Contact = () => {
         <ul className={`${styles["horizontal-list"]} ${styles["text-center"]} ${styles["social-icons"]}`}>
         <li>
                 <a href="https://www.linkedin.com/in/vinod-maurya/" target="_blank" rel="noreferrer">
-                  <i class="fab fa-linkedin-in"></i>
+                  <i className="fab fa-linkedin-in"></i>
                 </a>
               </li>
               <li>
                 <a href="https://github.com/vinodkumarmaury" target="_blank" rel="noreferrer">
-                <i class="fa-brands fa-github"></i>
+                <i className="fa-brands fa-github"></i>
                 </a>
               </li>
               <li>
                 <a href="https://twitter.com/its_vinod_kr" target="_blank" rel="noreferrer">
-                <i class="fa-brands fa-twitter"></i>
+                <i className="fa-brands fa-twitter"></i>
                 </a>
               </li>
               <li> 
                 <a href="https://www.facebook.com/profile.php?id=100046770062491" target="_blank" rel="noreferrer">
-                  <i class="fab fa-facebook-f"></i>
+                  <i className="fab fa-facebook-f"></i>
                 </a>
               </li>
               <li>
                 <a href="https://www.instagram.com/im_vinod_maurya/" target="_blank" rel="noreferrer">
-                <i class="fa-brands fa-instagram"></i>
+                <i className="fa-brands fa-instagram"></i>
                 </a>
               </li>
               <li>
